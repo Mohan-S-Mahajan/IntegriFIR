@@ -1,0 +1,33 @@
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   position: fixed;
+}
+
+.footer-container {
+  margin-left: 700px;
+}
+
+.admin-container {
+  margin-right: 10px; 
+}
+
+.admin-container button {
+  background-color: #2980b9; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.admin-container button:hover {
+  background-color: #1a6a99; 
+  transition: background-color 0.3s;
+}
