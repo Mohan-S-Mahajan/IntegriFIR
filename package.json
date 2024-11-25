@@ -1,8 +1,6 @@
 {
   "dependencies": {
     "jspdf": "^2.5.1"
-  },
-  "scripts": {
-    "build": "echo 'No build process is defined. Add your static files manually to the deployment directory.'"
   }
+  
 }
