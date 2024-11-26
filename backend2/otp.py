@@ -51,7 +51,7 @@ CORS(app)  # Enable CORS for all routes
 
 # Your Twilio credentials
 account_sid = 'AC92d1de64e182b483dde900f218ea9b59'
-auth_token = '071d754fca8de51d3c343e37b7bbb130'
+auth_token = 'ebdb6e405e858105430572b89762b24f'
 from_phone_number = '+18304944852'  # This must be a Twilio number
 
 client = Client(account_sid, auth_token)
