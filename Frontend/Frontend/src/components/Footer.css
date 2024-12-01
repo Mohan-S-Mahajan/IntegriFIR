@@ -1,33 +1,17 @@
-
 .footer {
-  background-color: #333;
-  color: white;
+  background-color: #000; /* Pure black background */
+  color: #fff; /* Bright white text for contrast */
   padding: 10px 20px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center-align the text */
   align-items: center;
-   position: fixed;
+  position: fixed;
+  bottom: 0; /* Stick the footer to the bottom */
 }
 
 .footer-container {
-  margin-left: 700px;
-}
-
-.admin-container {
-  margin-right: 10px; 
-}
-
-.admin-container button {
-  background-color: #2980b9; 
-  color: #fff; 
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.admin-container button:hover {
-  background-color: #1a6a99; 
-  transition: background-color 0.3s;
+  margin: 0; /* No extra margins */
+  font-size: 16px; /* Slightly larger font for better visibility */
+  font-weight: normal; /* Keep the text readable with normal weight */
 }
