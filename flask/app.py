@@ -205,7 +205,6 @@
 
 
 
-
 from flask import Flask, request, jsonify, render_template
 from fuzzywuzzy import fuzz
 from flask_cors import CORS
@@ -271,10 +270,7 @@ def get_response():
         return jsonify({"response": f"An error occurred: {str(e)}"})
 
 if __name__ == '__main__':
-    app.run(debug=True,port=5001)  # Run the Flask app in debug mode
-
-
-
+    app.run(debug=True, port=5001)  # Run the Flask app in debug mode
 
 
 

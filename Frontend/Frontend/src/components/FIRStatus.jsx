@@ -32,10 +32,10 @@ const AdminStatus = () => {
 
   const handleTrackClick = (cidToTrack) => {
     setSelectedCid(cidToTrack);
-
-    // Simulate a 2-hour delay (2 hours * 60 minutes * 60 seconds * 1000 ms)
-    const delayTime =  6 * 60 * 60 * 1000;
-
+   
+    
+    const delayTime = 60 * 60 * 1000; // 1 hour in milliseconds
+    
     setTrackingProgress((prevProgress) => {
       const currentStep = prevProgress[cidToTrack] || 0; // Default to step 0 if undefined
       const nextStep = currentStep < steps.length - 1 ? currentStep + 1 : currentStep;
